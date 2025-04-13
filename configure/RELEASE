@@ -31,7 +31,7 @@ TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
 #LWIP_CONTRIB=/home/mdavidsaver/source/lwip-contrib
 
 # EPICS_BASE usually appears last so other apps can override stuff:
-#EPICS_BASE=/usr/lib/epics
+EPICS_BASE=/usr/lib/epics
 
 # Set RULES here if you want to take build rules from somewhere
 # other than EPICS_BASE:

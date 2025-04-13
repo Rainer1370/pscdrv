@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<display type="org.csstudio.opibuilder.Display" version="1.0" name="pscSim" height="900" width="1200">
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="10" width="150" height="20">
+    <pv_name>test:reg4-I</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="35" width="150" height="20">
+    <pv_name>test:reg4-SP</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="60" width="150" height="20">
+    <pv_name>test:write1-SP</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="85" width="150" height="20">
+    <pv_name>test:conn</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="110" width="150" height="20">
+    <pv_name>test:onconn</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="135" width="150" height="20">
+    <pv_name>test:reg3:0-Sts</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="160" width="150" height="20">
+    <pv_name>test:reconn</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="185" width="150" height="20">
+    <pv_name>test:send</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="210" width="150" height="20">
+    <pv_name>test:reg3:0-Sel</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="235" width="150" height="20">
+    <pv_name>test:resync-Sel</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="260" width="150" height="20">
+    <pv_name>test:onconn:1</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="285" width="150" height="20">
+    <pv_name>test:cnt:conn</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="310" width="150" height="20">
+    <pv_name>test:cnt:ukn</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="335" width="150" height="20">
+    <pv_name>test:cnt:hear</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="360" width="150" height="20">
+    <pv_name>test:cnt:speak</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="385" width="150" height="20">
+    <pv_name>test:reg0-I</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="410" width="150" height="20">
+    <pv_name>test:reg1-I</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="435" width="150" height="20">
+    <pv_name>test:reg2-I</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="460" width="150" height="20">
+    <pv_name>test:reg3-I</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="485" width="150" height="20">
+    <pv_name>test:regsend</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="510" width="150" height="20">
+    <pv_name>test:reg0-SP</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="535" width="150" height="20">
+    <pv_name>test:reg1-SP</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="560" width="150" height="20">
+    <pv_name>test:reg2-SP</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="585" width="150" height="20">
+    <pv_name>test:write0-SP</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="610" width="150" height="20">
+    <pv_name>test:reg3:1-Sts</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="635" width="150" height="20">
+    <pv_name>test:reg3:1-Sel</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="660" width="150" height="20">
+    <pv_name>test:msg</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="685" width="150" height="20">
+    <pv_name>test:hear</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="710" width="150" height="20">
+    <pv_name>test:speak</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="10" y="735" width="150" height="20">
+    <pv_name>test:wfout</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="410" y="10" width="150" height="20">
+    <pv_name>test:wfin</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="410" y="35" width="150" height="20">
+    <pv_name>test:wfout2</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="410" y="60" width="150" height="20">
+    <pv_name>test:wfin2</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="410" y="85" width="150" height="20">
+    <pv_name>test:wfout3</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="410" y="110" width="150" height="20">
+    <pv_name>test:wfin3</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="410" y="135" width="150" height="20">
+    <pv_name>test:wfout4</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="410" y="160" width="150" height="20">
+    <pv_name>test:wfin4</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="410" y="185" width="150" height="20">
+    <pv_name>test:wfx</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="410" y="210" width="150" height="20">
+    <pv_name>test:wfx1</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="410" y="235" width="150" height="20">
+    <pv_name>test:wfx2</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="410" y="260" width="150" height="20">
+    <pv_name>test:wfx3</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="410" y="285" width="150" height="20">
+    <pv_name>test:regs</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+  <widget type="org.csstudio.opibuilder.widgets.TextUpdate" x="410" y="310" width="150" height="20">
+    <pv_name>test:prev0</pv_name>
+    <precision>3</precision>
+    <font>Arial</font>
+    <foreground_color>$(text)</foreground_color>
+    <background_color>OPI_Background</background_color>
+  </widget>
+</display>
